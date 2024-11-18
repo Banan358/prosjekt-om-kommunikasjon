@@ -13,7 +13,6 @@ body {
     display: grid;
     grid-template-columns: auto;
     gap: 20px;
-    max-width: 1300px;
     width: 100%;
     background-color: #ffffff;
     border-radius: 12px;
