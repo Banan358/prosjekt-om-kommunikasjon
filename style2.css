@@ -40,7 +40,6 @@ header p {
     margin: 10px;
     padding: 20px;
     width: 300px;
-    text-align: center;
 }
 
 .section h2 {
@@ -52,6 +51,8 @@ header p {
 .section p {
     font-size: 16px;
     line-height: 1.5;
+    text-decoration: none;
+    color: #333;
 }
 
 footer {
@@ -60,4 +61,24 @@ footer {
     padding: 10px;
     text-align: center;
     font-size: 14px;
+}
+
+main section {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: auto;
+    
+}
+
+hr {
+    width: 90%;
+    background-color: #4a90e2;
+    margin: auto;
+    border: 1px solid #4a90e2;
+}
+a {
+    text-decoration: none;
 }
