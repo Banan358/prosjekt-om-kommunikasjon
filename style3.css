@@ -37,6 +37,17 @@ section {
 h2 {
     color: #333;
 }
+#wlan{
+    background-image: url('your-transparent-image.png'); 
+    background-size: cover; 
+    background-position: center;  
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 50px;
+    text-align: center;
+    min-height: 300px;
+}
+
+
 footer {
     background-color: #333;
     color: white;
