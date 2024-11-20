@@ -87,32 +87,46 @@ hr {
 a {
     text-decoration: none;
 }
-#cpu {
+main section {
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
 main .tekst {
     grid-column: 1/2;
 }
-#cpu img {
+main section img {
     grid-column: 2/3;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+main h1 {
+    font-size: calc(20px + 1vw);
+    margin: 10px;
 }
 
 main p {
     margin-top: 20px;
-    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-size: calc(0.5rem + 1vw);
+    margin: 10px;
 }
 
-@media (max-width: 1050px) {
-    #cpu {
+main img {
+    margin: auto;
+}
+
+@media (max-width: 999px) {
+    main section {
         grid-template-columns: 1fr; 
     }
     .tekst {
         grid-column: 1 / 2; 
     }
-    #cpu img {
+    main section img {
         grid-column: 1 / 2; 
         max-width: 100%; 
     }
