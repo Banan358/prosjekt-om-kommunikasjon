@@ -34,17 +34,34 @@ section {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h2 {
-    color: #333;
+section{
+    background-image: url('bilder/wlan3.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: black; 
 }
-#wlan{
-    background-image: url('your-transparent-image.png'); 
-    background-size: cover; 
-    background-position: center;  
-    background-color: rgba(255, 255, 255, 0.8); 
-    padding: 50px;
-    text-align: center;
-    min-height: 300px;
+#wifi{
+    background-image: url('bilder/wi-fi.webp');
+}
+#lan{
+    background-image: url('bilder/lan.webp');
+}
+#eternet{
+    background-image: url('bilder/ethernet.jpg');
+}
+#kabeltv{
+    background-image: url('bilder/');
+}
+#fiberoptisk{
+    background-image: url('bilder/fiberoptisk-kabel.jpg');
+}
+#mobilnett{
+    background-image: url('bilder/5g.jpg');
+}
+h2 {
+    color:  black;
 }
 
 
@@ -65,6 +82,10 @@ footer {
         padding: 5px;
         font-size: 14px;
     }
+    section {
+        background-image: url('bilder/wlan3.webp'); 
+        background-size: contain; 
+    }
 }
 @media (max-width: 480px) {
     header {
@@ -79,6 +100,12 @@ footer {
         margin: 3px 0;
         padding: 5px 15px;
         font-size: 13px;
+    }
+    section {
+        background-image: url('bilder/wlan3.webp'); 
+        background-size: contain; 
+        padding: 15px; 
+        margin: 10px; 
     }
 }
 @media (max-width: 320px) {
@@ -97,5 +124,11 @@ footer {
     }
     body {
         font-size: 14px;
+    }
+    section {
+        background-image: url('bilder/wlan3.webp');
+        background-size: contain; 
+        padding: 10px; 
+        margin: 5px; 
     }
 } 
