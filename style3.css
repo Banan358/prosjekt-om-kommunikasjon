@@ -50,7 +50,9 @@ section img {
 h2 {
     color:  black;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 
 footer {
     background-color: #333;

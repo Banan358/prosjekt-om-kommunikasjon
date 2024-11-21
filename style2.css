@@ -13,8 +13,12 @@ body {
     color: #333;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
-    background-color: #4a90e2;
+    background-color: #0a3d62;
     color: white;
     padding: 20px;
     text-align: center;
@@ -28,6 +32,56 @@ header h1 {
 header p {
     font-size: 20px;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.header-content {
+    text-align: center;
+    flex-grow: 1;
+    margin-right: -80px;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-right: 50px;
+    scale: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 150px;
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 15px;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 15px;
+}
+
 
 .content {
     display: flex;
@@ -47,7 +101,7 @@ header p {
 }
 
 .section h2 {
-    color: #4a90e2;
+    color: #0a3d62;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -80,9 +134,9 @@ main section {
 
 hr {
     width: 90%;
-    background-color: #4a90e2;
+    background-color: #0a3d62;
     margin: auto;
-    border: 1px solid #4a90e2;
+    border: 1px solid #0a3d62;
 }
 a {
     text-decoration: none;
@@ -90,6 +144,9 @@ a {
 main section {
     display: grid;
     grid-template-columns: 3fr 2fr;
+}
+main h1 {
+    color: #0a3d62;
 }
 main .tekst {
     grid-column: 1/2;
@@ -131,3 +188,4 @@ main img {
         max-width: 100%; 
     }
 }
+
