@@ -13,6 +13,10 @@ body {
     color: #333;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: #0a3d62;
     color: white;
@@ -46,11 +50,8 @@ header {
 .menu-icon {
     width: 30px;
     cursor: pointer;
-}
-
-.dropdown img{
-   margin-right: 50px;
-   scale: 100%;
+    margin-right: 50px;
+    scale: 100%;
 }
 
 .dropdown-content {
@@ -187,3 +188,4 @@ main img {
         max-width: 100%; 
     }
 }
+
