@@ -23,6 +23,7 @@ a img {
     margin: auto;
     width: 90%;
     border-radius: 10px;
+    height: 90%;
 }
 
 html {
@@ -85,6 +86,10 @@ main {
 main a {
     background: rgba(255, 255, 255, 0.8);
     width: 25vw;
+}
+
+main p {
+    font-size: calc( 0.5em + 0.8vw);
 }
 
 main a:hover {
