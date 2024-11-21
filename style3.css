@@ -6,15 +6,17 @@ body {
     padding: 0;
 }
 header {
-    background: #333;
+    background: #0a3d62;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
 }
+
+
 nav {
     display: flex;
     justify-content: center;
-    background: #555;
+    background: #164f78;
     padding: 8px;
 }
 nav a {
