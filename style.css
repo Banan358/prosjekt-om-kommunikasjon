@@ -140,3 +140,9 @@ main .nettadresse{
         width: 60vw;
     }
 }
+
+@media (max-width: 700px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+}
