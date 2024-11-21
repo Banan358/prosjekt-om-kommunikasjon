@@ -14,6 +14,7 @@
 
 a {
     text-decoration: none;
+    color: black;
     display: flex;
     flex-direction: column;
 }
@@ -137,5 +138,11 @@ main .nettadresse{
     main a {
         margin-top: 1cm;
         width: 60vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar ul {
+        flex-direction: column;
     }
 }
