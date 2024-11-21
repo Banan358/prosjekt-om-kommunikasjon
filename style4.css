@@ -6,7 +6,6 @@
     font-family: Arial, sans-serif;
 }
 
-
 header {
     background-color: #0a3d62;
     color: white;
@@ -192,4 +191,66 @@ footer {
     padding: 10px;
     text-align: center;
     font-size: 14px;
+}
+/*
+.section2 h3{
+    font-size: calc(0.5rem + 1vw);
+}
+*/
+
+
+@media (max-width: 1100px) {
+    .body{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 855px) {
+    .body{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .body{
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 590px) {
+    .body{
+        font-size: 0.7rem;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .body{
+        font-size: 0.65rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .secondary_title{
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .title{
+        font-size: 1.7rem;
+    }
+    .secondary_title{
+        font-size: 1.7rem;
+    }
 }
