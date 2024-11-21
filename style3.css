@@ -141,7 +141,7 @@ footer {
     }
     section img {
         margin-top: 15px;
-        width: 100%;
+        width: 50%;
         max-height: auto;
     }
 }
@@ -160,7 +160,7 @@ footer {
         font-size: 13px;
     }
     section img {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 }
