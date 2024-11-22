@@ -189,3 +189,8 @@ main img {
     }
 }
 
+@media (max-width:460px) {
+    header h1 {
+        font-size: 20px;
+    }
+}
