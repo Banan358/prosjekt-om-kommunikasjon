@@ -93,6 +93,91 @@ main p {
 main img {
     margin: auto;
 }
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #0a3d62;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    flex-wrap: wrap; 
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.header-content {
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-right: 50px;
+    scale: 100%;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 50%; 
+    top: 100%; 
+    transform: translateX(-50%); 
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 150px;
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
 
 @media (max-width: 999px) {
     main section {
@@ -107,8 +192,32 @@ main img {
     }
 }
 
-@media (max-width:460px) {
-    header h1 {
-        font-size: 20px;
+@media (max-width: 720px) {
+    header {
+        flex-direction: column; 
+        align-items: center;   
+    }
+
+    .header-content {
+        margin: 10px 0;
+        margin-left: 0px; 
+    }
+
+    .menu-icon {
+        margin-right: 0; 
+        margin-bottom: 10px;
+    }
+
+    .dropdown-content {
+        position: absolute; 
+        top: 100%; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        width: auto; 
+        text-align: center;
+    }
+
+    .dropdown-content a {
+        padding: 10px; 
     }
 }
